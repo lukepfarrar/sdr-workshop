@@ -11,7 +11,7 @@ Any useful links / further info to come out of the workshop will be put here aft
 Linux
 -----
 
-The following has been tested on Ubunto 18.04:
+The following has been tested on Ubuntu 18.04:
 
 ```bash
 sudo apt-get update
