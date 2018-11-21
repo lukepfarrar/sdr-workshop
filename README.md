@@ -15,7 +15,7 @@ The following has been tested on Ubuntu 18.04:
 
 ```bash
 sudo apt-get update
-sudo apt-get install rtl-sdr gqrx-sdr gpredict cubicsdr
+sudo apt-get install rtl-sdr gqrx-sdr gpredict cubicsdr librtlsdr-dev
 sudo rmmod dvb_usb_rtl28xxu
 git clone https://github.com/antirez/dump1090
 echo 'blacklist dvb_usb_rtl28xxu' | sudo tee /etc/modprobe.d/blacklist-dvb_usb_rtl28xxu.conf
